@@ -4,12 +4,20 @@ This UEFI program enables Intel PEP (Power Engine Plug-in) and adds support for 
 
 > 这个好像不是所有大学生都能写出来的玩意了——[Ben Wang](https://github.com/imbushuo)，2020-02-12
 
+## WARNING
+
+This is not an end-user product. This is pure experimental.
+
+S0ix might not be fully supported by your hardware, firmware or operating system. Enabling S0ix might overheat your device and cause fire in extreme environments. The developer is not responsible for anything that happen to you or your computer.
+
+Loading incorrect ACPI tables might cause harm to your hardware, render your OS unable to boot, and cause data damage. Loading untrusted ACPI table might harm your data security.
+
 ## Usage
 
 ### Requirements
 
 * UEFI-enabled firmware
-* Windows 10 1903 (19H1) or later (earlier versions of Windows doesn't support IntelPEP if it is not available during OS installation)
+* Windows 10 1903 (19H1) or later (earlier versions of Windows doesn't support IntelPEP if it is not available during OS installation, but your mileage may vary)
 * S0ix is enabled (natively or use [S0ixEnabler](https://github.com/Jamesits/S0ixEnabler))
 
 ### Preparation
