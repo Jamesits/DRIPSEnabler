@@ -28,7 +28,7 @@ DefinitionBlock ("", "SSDT", 1, "APPLE ", "IntelPEP", 0x00001000)
                 // Wi-Fi
                 Package() {"\\_SB.PCI0.RP03", 0x1, Package (0x02) {0x0, Package (0x03) { 0xFF, 0x00, 0x81 }}},
                 // Camera
-                Package() {"\\_SB.PCI0.RP02", 0x1, Package (0x02) {0x0, Package (0x03) { 0xFF, 0x00, 0x81 }}},
+                Package() {"\\_SB.PCI0.RP02", 0x0, Package (0x02) {0x0, Package (0x03) { 0xFF, 0x00, 0x81 }}},
             })
 
             // BCCD crashdump information
