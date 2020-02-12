@@ -2,6 +2,8 @@
 
 This UEFI program enables Intel PEP (Power Engine Plug-in) and adds support for DRIPS if your firmware didn't support it natively.
 
+> 这个好像不是所有大学生都能写出来的玩意了——[Ben Wang](https://github.com/imbushuo)，2020-02-09
+
 ## Usage
 
 ### Requirements
