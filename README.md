@@ -1,6 +1,6 @@
 # DRIPSEnabler
 
-This UEFI program enables Intel PEP (Power Engine Plug-in) and adds support for DRIPS if your firmware didn't support it natively. DRIPS allows more devices being shut down during S0ix, thus saving more energy.
+This UEFI program enables Intel [PEP (Power Engine Plug-in)](https://docs.microsoft.com/en-us/windows-hardware/design/device-experiences/prepare-hardware-for-modern-standby#powering-down-the-soc) and adds support for DRIPS if your firmware didn't support it natively. DRIPS allows more devices being shut down during S0ix, thus saving more energy.
 
 > 这个好像不是所有大学生都能写出来的玩意了——[Ben Wang](https://github.com/imbushuo)，2020-02-12
 
